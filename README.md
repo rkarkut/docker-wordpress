@@ -2,8 +2,8 @@
 
 ## Configuration
 
-host: localhost:8000  
-phpmyadmin host: localhost:8080
+host: http://localhost:8000  
+PhpMyAdmin host: http://localhost:8080
 
 ## Database
 
@@ -15,7 +15,7 @@ port: 3306
 
 ## Admin panel
 
-url: localhost:8000/wp-admin/  
+url: http://localhost:8000/wp-admin/  
 login: admin  
 password: TestApp776
 
