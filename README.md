@@ -26,6 +26,6 @@ password: TestApp776
 
 ```docker-compose up```
 
-2. Copy GetResponse plugin to proper directory:
+2. Copy GetResponse plugin to plugins directory:
 
 ```cp -r data/plugin/GetResponse web/wp-content/plugins```
