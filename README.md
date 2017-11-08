@@ -24,8 +24,8 @@ password: TestApp776
 
 1. Run docker container:
 
-```shell docker-compose up```
+```docker-compose up```
 
 2. Copy GetResponse plugin to proper directory:
 
-```shell cp -r data/plugin/GetResponse web/wp-content/plugins```
+```cp -r data/plugin/GetResponse web/wp-content/plugins```
