@@ -2,8 +2,8 @@
 
 ## Configuration
 
-host: http://localhost:8000  
-PhpMyAdmin host: http://localhost:8080
+host: http://127.0.0.1:8000  
+PhpMyAdmin host: http://127.0.0.1:8080
 
 ## Database
 
@@ -14,10 +14,9 @@ password: dev
 port: 3306
 
 ## Admin panel
-
-url: http://localhost:8000/wp-admin/  
+url: http://127.0.0.1:8000/wp-admin/  
 login: admin  
-password: TestApp776
+password: TestApp777#
 
 
 ## Installation:
@@ -26,6 +25,4 @@ password: TestApp776
 
 ```docker-compose up```
 
-2. Copy GetResponse plugin to plugins directory:
-
-```cp -r data/plugin/GetResponse web/wp-content/plugins```
+2. Download wordpress project to /data/www/wordpress directory
